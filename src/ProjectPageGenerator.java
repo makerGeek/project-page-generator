@@ -22,7 +22,7 @@ public class ProjectPageGenerator {
             String title = obj.getString("title");
             String description = obj.getString("description");
             System.out.println("title : "+title +" : OK");
-            System.out.println("description : "+ description.substring(0, 20) +"... : OK");
+            System.out.println("description : "+ description.substring(0, Math.min(description.length(), 20)) +"... : OK");
             System.out.println("fetching images...");
             File directory = new File("img");
             File[] contents = directory.listFiles();

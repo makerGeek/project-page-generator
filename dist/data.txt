@@ -1,2 +1,2 @@
-{"title":"Hello World!",
-"description":"ain't very long of a description"}
+{"title":"",
+"description":""}
